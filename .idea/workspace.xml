@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15b62cec-d327-4489-8744-f39d362dd5a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lecture_2/3rd_task.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture_2/3rd_task.py" afterPath="$PROJECT_DIR$/Lecture_2/3rd_task.py" />
     </list>
     <ignored path="test_repository_Selenium.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +26,7 @@
       <file leaf-file-name="1st_task.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lecture_2/1st_task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="119">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="3rd_task.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lecture_2/3rd_task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="102">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -99,7 +99,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,6 +133,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,17 +356,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 14h 14m 11s.xml">
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 22h 01m 26s.xml">
       <configuration name="py.test in 3rd_task.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 14h 15m 28s.xml">
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 22h 03m 51s.xml">
       <configuration name="py.test in 3rd_task.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 14h 16m 16s.xml">
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 22h 20m 52s.xml">
       <configuration name="py.test in 3rd_task.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_simple_one - 2016.11.17 at 01h 39m 50s.xml">
-      <configuration name="py.test in test_simple_one" configurationId="tests" />
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 22h 21m 19s.xml">
+      <configuration name="py.test in 3rd_task.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 22h 21m 55s.xml">
+      <configuration name="py.test in 3rd_task.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 22h 22m 23s.xml">
+      <configuration name="py.test in 3rd_task.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 22h 27m 46s.xml">
+      <configuration name="py.test in 3rd_task.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 23h 16m 13s.xml">
+      <configuration name="py.test in 3rd_task.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 23h 19m 39s.xml">
+      <configuration name="py.test in 3rd_task.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_3rd_task_py - 2016.11.20 at 23h 24m 57s.xml">
+      <configuration name="py.test in 3rd_task.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -403,25 +421,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lecture_2/1st_task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture_2/1st_task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture_2/1st_task.py">
+    <entry file="file://$PROJECT_DIR$/Lecture_2/3rd_task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -443,8 +451,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture_2/3rd_task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture_2/1st_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture_2/1st_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture_2/1st_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture_2/1st_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture_2/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture_2/3rd_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
