@@ -33,9 +33,9 @@ def test_go_through_vertical_menu(driver):
         main_menu.click()
         assert are_elements_present(driver, By.CSS_SELECTOR, "h1") == True
         amount_children_menues = len(driver.find_elements_by_css_selector("li#app-.selected li"))
-        non_selected_children_menues = len(driver.find_elements_by_css_selector("li#app-.selected li:not(.selected)"))
-        # case when
-        if non_selected_children_menues:
+        # children are exist?
+        if amount_children_menues:
+            # loop to go through all children (starts with 2nd child)
             for child in range(2, amount_children_menues + 1):
                 optional_menu = driver.find_element_by_css_selector(
                     "li#app-.selected li:nth-of-type({0})".format(child))
