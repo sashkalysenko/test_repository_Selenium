@@ -31,7 +31,7 @@ def id_for_column(driver, table, column_name):
     return False
 
 
-def test_alphabetical_order_counties(driver):
+# def test_alphabetical_order_counties(driver):
     # login and navigate to Countries-page
     admin_login(driver)
     driver.find_element_by_css_selector("a[href *= countries]").click()
@@ -84,4 +84,30 @@ def test_alphabetical_order_counties(driver):
         correct_order.sort()
         assert zones_list == correct_order
         # come back to Countries menu
+        driver.find_element_by_css_selector("span.button-set button[name = cancel]").click()
+
+
+def test_alphabetical_order_geoZones(driver):
+    # login and navigate to GeoZones-page
+    admin_login(driver)
+    driver.find_element_by_css_selector("a[href *= geo_zones]").click()
+    zones_table = "table.dataTable"
+    amount_rows = len(driver.find_elements_by_css_selector(zones_table + " tr.row"))
+    zones_list = []
+    for one in range(1, amount_rows + 1):
+        driver.find_element_by_css_selector("a[href*='geo_zone_id={0}']".format(one)).click()
+        column_zone_id = id_for_column(driver, zones_table, "Zone")
+        rows = driver.find_elements_by_css_selector(zones_table + " tr:not([class = header]")
+        for row in rows:
+            cells = row.find_elements_by_css_selector("td")
+            options = cells[column_zone_id]
+            selected_option = options.find_elements_by_css_selector("option selected").get_attribute('textContent')
+            if selected_option:
+                zones_list.append(selected_option)
+
+        # verify alphabetical order of all zones
+        correct_order = zones_list[:]
+        correct_order.sort()
+        assert zones_list == correct_order
+
         driver.find_element_by_css_selector("span.button-set button[name = cancel]").click()
